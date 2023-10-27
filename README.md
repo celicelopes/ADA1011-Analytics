@@ -20,26 +20,26 @@ O dicionário dos dados também está disponível no website: "http://insideairb
 
 **Passos do Projeto**
 
-  1. **Aquisição de Dados e Armazenamento de Dados em PostgreSQL - Camada Bronze**
+  1. **Aquisição de Dados e Armazenamento de Dados em PostgreSQL - Camada Bronze** [OK]
     Baixe o conjunto de dados "Inside Airbnb" do Rio de Janeiro da fonte oficial (http://insideairbnb.com/) e promova uma estruturação simples nos dados.
     Crie um banco de dados PostgreSQL para armazenar os dados brutos das 3 tabelas ("Listing", "Reviews" e Calendar") na camada "bronze".
 
 
-  2. **Data Clean - Camada Silver**
+  2. **Data Clean - Camada Silver** [OK]
 
      Identifique e lide com valores ausentes, duplicatas e outliers nos dados brutos da camada "bronze".
      Padronize e limpe os nomes das colunas, convertendo-os em um formato consistente.
      Realize uma limpeza textual em campos, como descrições de propriedades, removendo caracteres especiais e erros de digitação.
 
 
-  4. **Data Quality - Camada Silver**
+  4. **Data Quality - Camada Silver** [OK]
      
      Defina métricas de qualidade de dados, como integridade, precisão e consistência para os dados da camada "bronze".
      Implemente verificações para garantir que os dados da camada "silver" estejam em conformidade com essas métricas.
      Estabeleça um sistema de monitoramento contínuo da qualidade dos dados da camada "silver".
 
 
-  6. **Testes de Qualidade - Camada Silver**
+  6. **Testes de Qualidade - Camada Silver** [OK]
      
         Utilize a biblioteca Great Expectations para criar testes de qualidade automatizados que verifiquem as expectativas definidas para os dados da camada "silver".
         Desenvolva testes que assegurem que os dados da camada "silver" atendam às regras de negócios e aos requisitos de qualidade.
