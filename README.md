@@ -1,3 +1,5 @@
+Celice Lopes - celice.lopes@gmail.com
+
 # ADA1011-Analytics
 -----
 
